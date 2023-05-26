@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Design</title>
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .menu-container {
+            background-color: #F5F6FA;
+            width: 100%;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        .menu-icon-box {
+            margin-right: 15px;
+        }
+
+        .menu-icon-box img {
+            height: 24px;
+        }
+
+        .menu-match-box {
+            margin-top: 10px;
+            background-color: #FFFFFF;
+            padding: 10px;
+            font-size: 15px;
+        }
+
+        .menu-match-title {
+            color: #00265A;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            width: 100%;
+        }
+
+        .menu-match-title img {
+            height: 24px;
+            display: flex;
+            align-items: center;
+        }
+
+        .menu-match-description {
+            line-height: 20px;
+            color: #414141;
+            margin: 0;
+        }
+
+        .menu-match-button {
+            border: 1px solid #6BD637;
+            color: #00265A;
+            margin-top: 10px;
+            font-weight: 600;
+            display: flex;
+            height: 30px;
+            overflow: hidden;
+        }
+
+        .menu-match-button-trasform {
+            width: 66px;
+            height: 50px;
+            background-color: #6BD637;
+            transform: skewX(160deg);
+            margin-left: -15px
+        }
+    </style>
+</head>
+
+<body>
+    <div class="menu-container">
+        <div class="menu-match-box">
+            <div style="display: flex; ">
+                <div class="menu-icon-box">
+                    <img src="./icons/tennis.png" alt="tennis">
+                </div>
+                <div>
+                    <div class="menu-match-title">
+                        <span style="margin-right: 10px;">16:10</span>
+                        <span style="padding-right: 5px;">N. Djokovic</span>
+                        <img src="./icons/serbia.png" alt="tennis">
+                        <span style="padding: 0 5px;">&#45;</span>
+                        <img src="./icons/italy.png" alt="tennis">
+                        <span style="padding-left: 5px;">L. Musetti</span>
+                    </div>
+                    <p class="menu-match-description">N.Djokovic gagne et plus de 4,5 aces dans le match?
+                        (1,9 -> 2,15 / Mise max 25€) - Match</p>
+                </div>
+            </div>
+            <div class="menu-match-button">
+                <div class="menu-match-button-trasform"></div>
+                <div style="display: flex; align-items: center; justify-content: center; width: 100%;">2,15</div>
+            </div>
+        </div>
+
+        <div class="menu-match-box">
+            <div style="display: flex; ">
+                <div class="menu-icon-box">
+                    <img src="./icons/football.png" alt="football">
+                </div>
+                <div>
+                    <div class="menu-match-title">
+                        <span style="margin-right: 10px;">19:45</span>
+                        <span style="padding-right: 5px;">CB Multicompet (13/04)</span>
+                    </div>
+                    <p class="menu-match-description">As Rome (vs Feyernoord) ne perd pas son match et
+                        West Ham (vs La Gantoise) marque 2 buts ou +
+                        (3,10→3,65 / Mise max 50€)</p>
+                </div>
+            </div>
+            <div class="menu-match-button">
+                <div class="menu-match-button-trasform"></div>
+                <div style="display: flex; align-items: center; justify-content: center; width: 100%;">2,15</div>
+            </div>
+        </div>
+
+        <div class="menu-match-box">
+            <div style="display: flex; ">
+                <div class="menu-icon-box">
+                    <img src="./icons/football.png">
+                </div>
+                <div>
+                    <div class="menu-match-title">
+                        <span style="margin-right: 10px;">22:00</span>
+                        <span style="padding-right: 5px;">Man. United</span>
+                        <img src="./icons/manchester-united.png" alt="tennis">
+                        <span style="padding: 0 5px;">&#45;</span>
+                        <img src="./icons/sevilla.png" alt="tennis">
+                        <span style="padding-left: 5px;">Séville</span>
+                    </div>
+                    <p class="menu-match-description">B.Fernandes ou W.Weghorst marque(nt) en 1ere
+                        mi-temps ? (2,50→3,00 / Mise max 50€) (Remboursé si
+                        non titulaire(s)) - 90 Mins</p>
+                </div>
+            </div>
+            <div class="menu-match-button">
+                <div class="menu-match-button-trasform"></div>
+                <div style="display: flex; align-items: center; justify-content: center; width: 100%;">2,15</div>
+            </div>
+        </div>
+
+        <div class="menu-match-box">
+            <div style="display: flex; ">
+                <div class="menu-icon-box">
+                    <img src="./icons/football.png">
+                </div>
+                <div>
+                    <div class="menu-match-title">
+                        <span style="margin-right: 10px;">22:45</span>
+                        <span style="padding-right: 5px;">FC Bâle</span>
+                        <img src="./icons/serbia.png" alt="tennis">
+                        <span style="padding: 0 5px;">&#45;</span>
+                        <img src="./icons/italy.png" alt="tennis">
+                        <span style="padding-left: 5px;">Nice</span>
+                    </div>
+                    <p class="menu-match-description">Nice marque dans les 2 mi-temps (2,65→3,20 / Mise
+                        max 50€) - 90 Mins</p>
+                </div>
+            </div>
+            <div class="menu-match-button">
+                <div class="menu-match-button-trasform"></div>
+                <div style="display: flex; align-items: center; justify-content: center; width: 100%;">2,15</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
